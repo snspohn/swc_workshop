@@ -11,3 +11,8 @@ gapminder <- read.csv("gapminder-FiveYearData.csv")
 ggplot(data=gapminder, aes(s=gdpPercap, y=lifeExp))+geom_point()
 
 #make life expectancy and gdp chart, color by continent and size by pop
+
+#Notes from software carpentry workshop
+#Date: January 17-18, 2017
+#Author: Stephanie N Spohn
+
